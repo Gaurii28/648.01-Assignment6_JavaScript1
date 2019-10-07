@@ -1,7 +1,7 @@
-var d;
 for(var i=1;i<=7;i++){
-    for(var d=i;d>0;d--){
-        window.console.log("#");
+    var d="";
+    for(var j=0;j<i;j++){
+        d+="#";
     }
-    window.console.log("\n");
+    console.log(d);
 }
